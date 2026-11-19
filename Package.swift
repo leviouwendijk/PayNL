@@ -1,0 +1,59 @@
+// swift-tools-version: 6.2
+
+import PackageDescription
+
+let package = Package(
+    name: "PayNL",
+    platforms: [
+        .macOS(.v13),
+    ],
+    products: [
+        .library(name: "PayNL", targets: ["PayNL"]),
+        .executable(name: "t_paynl", targets: ["PayNLTests"]),
+        .executable(name: "t_paynl_live", targets: ["PayNLLive"]),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/leviouwendijk/Primitives.git", branch: "master"),
+        .package(url: "https://github.com/leviouwendijk/HTTP.git", branch: "master"),
+        .package(url: "https://github.com/leviouwendijk/Milieu.git", branch: "master"),
+        .package(url: "https://github.com/leviouwendijk/Sensitivity.git", branch: "master"),
+    ],
+    targets: [
+        .target(
+            name: "PayNL",
+            dependencies: [
+                .product(name: "Primitives", package: "Primitives"),
+                .product(name: "HTTP", package: "HTTP"),
+                .product(name: "Sensitivity", package: "Sensitivity"),
+            ],
+            path: "Sources/PayNL"
+        ),
+        .executableTarget(
+            name: "PayNLTests",
+            dependencies: ["PayNL"],
+            path: "Testing/PayNLTests"
+        ),
+        .executableTarget(
+            name: "PayNLLive",
+            dependencies: ["PayNL", .product(name: "Milieu", package: "Milieu")],
+            path: "Testing/PayNLLive"
+        ),
+    ],
+    swiftLanguageModes: [.v6]
+)
+
+for target in package.targets {
+    switch target.type {
+    case .regular, .executable, .test, .macro:
+        var settings = target.swiftSettings ?? []
+        settings.append(.treatAllWarnings(as: .error))
+        settings.append(.unsafeFlags(["-continue-building-after-errors"]))
+        target.swiftSettings = settings
+
+    case .plugin, .system, .binary:
+        break
+
+    @unknown default:
+        break
+    }
+}

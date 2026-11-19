@@ -1,0 +1,32 @@
+[
+    {
+        "kind": "unresolved_internal",
+        "ref": "#/components/schemas/Card/properties/expireMonth",
+        "source": "pay-idefix-rest.json"
+    },
+    {
+        "kind": "unresolved_internal",
+        "ref": "#/components/schemas/Card/properties/expireYear",
+        "source": "pay-idefix-rest.json"
+    },
+    {
+        "kind": "unresolved_internal",
+        "ref": "#/components/schemas/Card/properties/name",
+        "source": "pay-idefix-rest.json"
+    },
+    {
+        "kind": "unresolved_internal",
+        "ref": "#/components/schemas/Card/properties/pin",
+        "source": "pay-idefix-rest.json"
+    },
+    {
+        "kind": "unresolved_internal",
+        "ref": "#/components/schemas/Card/properties/type",
+        "source": "pay-idefix-rest.json"
+    },
+    {
+        "kind": "unresolved_internal",
+        "ref": "#/components/schemas/MerchantCompliance",
+        "source": "pay-idefix-rest.json"
+    }
+]

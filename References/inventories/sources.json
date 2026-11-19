@@ -1,0 +1,152 @@
+[
+    {
+        "openapi": "3.0.0",
+        "security_schemes": [
+            "basicAuth"
+        ],
+        "servers": [
+            {
+                "url": "https://payment.pay.nl/"
+            }
+        ],
+        "source": "pay-card-payments.json",
+        "title": "PAY. Card Payment API - v1.2.3",
+        "version": "1.2"
+    },
+    {
+        "openapi": "3.0.1",
+        "security_schemes": [
+            "basicAuth"
+        ],
+        "servers": [
+            {
+                "url": "https://rest-api.pay.nl"
+            }
+        ],
+        "source": "pay-clearing-and-invoicing-apis.json",
+        "title": "PAY. GLOBAL MANAEMENT SYSTEM API'S",
+        "version": "1.0.0"
+    },
+    {
+        "openapi": "3.1.0",
+        "security_schemes": [
+            "BasicAuth",
+            "BearerAuth"
+        ],
+        "servers": [
+            {
+                "description": "Pay.nl",
+                "url": "https://gms.pay.nl"
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "title": "PAY. Global Management System API's",
+        "version": "2"
+    },
+    {
+        "openapi": "3.0.0",
+        "security_schemes": [
+            "basicAuth",
+            "bearerAuth"
+        ],
+        "servers": [
+            {
+                "description": "PAY. API server",
+                "url": "https://rest.pay.nl/v2"
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "title": "PAY. Global Management System API's",
+        "version": "v2.0"
+    },
+    {
+        "openapi": "3.0.0",
+        "security_schemes": [
+            "basicAuth"
+        ],
+        "servers": [
+            {
+                "description": "PAY. API server",
+                "url": "https://rest.pay.nl/v2"
+            },
+            {
+                "url": "https://rest.letspay.nl/v2"
+            },
+            {
+                "url": "https://rest.fasterpay.nl/v2"
+            },
+            {
+                "url": "https://rest.premium-pay.nl/v2"
+            },
+            {
+                "url": "https://rest.letspin.nl/v2"
+            },
+            {
+                "url": "https://rest.achterelkebetaling.nl/v2"
+            },
+            {
+                "url": "https://rest.payments.nl/v2"
+            }
+        ],
+        "source": "pay-idefix-trx.json",
+        "title": "PAY. Transaction Gateway Unit API's",
+        "version": "v2.0"
+    },
+    {
+        "openapi": "3.0.0",
+        "security_schemes": [],
+        "servers": [
+            {
+                "description": "PAY. pin server",
+                "url": "https://pin.pay.nl"
+            },
+            {
+                "description": "PAY. instore server",
+                "url": "https://instore.pay.nl"
+            },
+            {
+                "description": "PAY. fasterpay server",
+                "url": "https://pin.fasterpay.nl"
+            },
+            {
+                "description": "PAY. letspin server",
+                "url": "https://pin.letspin.nl"
+            },
+            {
+                "description": "PAY. letspat server",
+                "url": "https://pin.letspay.nl"
+            }
+        ],
+        "source": "pay-terminal-payments.json",
+        "title": "PAY. instore",
+        "version": "v1.0"
+    },
+    {
+        "openapi": "3.1.0",
+        "security_schemes": [
+            "BasicAuth",
+            "BearerAuth"
+        ],
+        "servers": [
+            {
+                "description": "Multicore (Default)",
+                "url": "https://connect.pay.nl"
+            },
+            {
+                "description": "Payments",
+                "url": "https://connect.payments.nl"
+            },
+            {
+                "description": "Achterelkebetaling",
+                "url": "https://connect.achterelkebetaling.nl"
+            },
+            {
+                "description": "ZERO",
+                "url": "https://zero.pay.nl"
+            }
+        ],
+        "source": "pay-tgu.json",
+        "title": "Pay. Transaction Gateway Unit API",
+        "version": "1"
+    }
+]

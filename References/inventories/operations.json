@@ -1,0 +1,7221 @@
+[
+    {
+        "deprecated": false,
+        "fingerprint": "8f039e37b28c15bb66429966a7eb35b64fa48c6d3add0bcecf196ce1380ba460",
+        "method": "POST",
+        "operation_id": "863bad74c68534fca01fb5a7557ea792",
+        "path": "/v1/Payment/addToken/json",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-card-payments.json",
+        "tags": [
+            "Card Payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "9aa56ea11073f317520c2097ed420486ebc4294f0f94285c1770cc1b7d0b0ad9",
+        "method": "POST",
+        "operation_id": "686211a23f2bf051ed06ad4fe6c1ce1b",
+        "path": "/v1/Payment/authenticate/json",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-card-payments.json",
+        "tags": [
+            "Card Payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ccc581b724679ec5e59f367d41061820b5b6f3d6b2418cf5da0035772155934d",
+        "method": "POST",
+        "operation_id": "d8a03bda20cafdf5fb63243c496b614a",
+        "path": "/v1/Payment/authorize/json",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-card-payments.json",
+        "tags": [
+            "Card Payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "dcfc9db6167584832bfc91107f68dac062c966881e6c0306f28c19919479472b",
+        "method": "POST",
+        "operation_id": "9127090d4da0784100517935a43fd1e7",
+        "path": "/v1/Payment/getAuthenticationStatus/json",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-card-payments.json",
+        "tags": [
+            "Card Payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b82fda99193b7d7b69424b4cc2f0a8dd658d11a3c7e05dd4739d8e76734ae2ec",
+        "method": "POST",
+        "operation_id": "6bf1c1978ceadffdda65a50f03af790c",
+        "path": "/v1/Payment/getCardInfo/json",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-card-payments.json",
+        "tags": [
+            "Card Payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "0a485ea503c8c983beb17dffe72cae2e6a0a159066bc81cf9298d9c7e5170095",
+        "method": "POST",
+        "operation_id": "39cd7b9f1e762c4b9987cdd4684dc279",
+        "path": "/v1/Payment/getCardToken/json",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-card-payments.json",
+        "tags": [
+            "Card Payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5054dddaf75522e04286ade9d819ca3b806714ec3d69bb1e532135e447746d46",
+        "method": "POST",
+        "operation_id": "cf8eb044c5d15652a2f422d0083881cc",
+        "path": "/v1/Payment/getEncryptionKeys/json",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-card-payments.json",
+        "tags": [
+            "Card Payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "50b019c9b4ebf36f62bcefdc5ff1a45a39658bd72a0dd2e3b90764db3c971589",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/v5/Merchant/addClearing/json",
+        "responses": [
+            "200"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-clearing-and-invoicing-apis.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "17e3f1922bfbba9d7b8c9ca029e4d524015414514cf05cbdf1cb7d45e8b0548d",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/v8/Alliance/addInvoice/json",
+        "responses": [
+            "200"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-clearing-and-invoicing-apis.json",
+        "tags": [
+            "Invoicing"
+        ]
+    },
+    {
+        "deprecated": true,
+        "fingerprint": "54f51a2fb1ab7c810ae972898a38c5e893628f1577dd2e4cfa08b1ef17f9d715",
+        "method": "PATCH",
+        "operation_id": "account_2fa_patch",
+        "path": "/v2/accounts/2fa",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": true,
+        "fingerprint": "3162068ade5e8b64f0972fc15763a6727d1bf4b241045bbe0cfe6dc6a8cb11a1",
+        "method": "GET",
+        "operation_id": "account_2fa_generate_qr_get",
+        "path": "/v2/accounts/2fa/generate-qr",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": true,
+        "fingerprint": "0bb7f0788ec10b4a4ea95d55959522df3ccbeea09d1a0f157a1a6550f1dc9534",
+        "method": "POST",
+        "operation_id": "account_2fa_trigger_post",
+        "path": "/v2/accounts/2fa/trigger",
+        "responses": [
+            "202",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": true,
+        "fingerprint": "2b1f80bdb8500ca6940be20c4b426c2ab2988264ce100881988d6f0d5e81eb7e",
+        "method": "POST",
+        "operation_id": "account_2fa_verify_post",
+        "path": "/v2/accounts/2fa/verify",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c3636e364ed617b71f13bc5037132dbef04dcb3018c2efdd3dfa04788407d11b",
+        "method": "GET",
+        "operation_id": "account_me_get",
+        "path": "/v2/accounts/me",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c6d3ebd8d5845c6799418bee062397e4339a588a5d11e3fab24c1eb8cdd42239",
+        "method": "PATCH",
+        "operation_id": "account_me_patch",
+        "path": "/v2/accounts/me",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ebd14eaa8b8884183d5ef859348223cbbe74ef0e10113ff23bfe65371b301647",
+        "method": "GET",
+        "operation_id": "account_licenses_get",
+        "path": "/v2/accounts/me/licenses",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "a9e9dfbb73fcffd6b706a21d8c3f5b175c2c8bbe04948535035e157d4a82ed7a",
+        "method": "DELETE",
+        "operation_id": "account_license_delete",
+        "path": "/v2/accounts/me/licenses/{licenseCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b55b8142baf9de5951a06254d7332ffe4f5659712eaa2ea3cd5e45f57593352f",
+        "method": "PATCH",
+        "operation_id": "account_password_patch",
+        "path": "/v2/accounts/password",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "7e7d1afb7f4392891253d517a4aa796a3003ec287345c7a9813bca0cea4dbba2",
+        "method": "POST",
+        "operation_id": "account_password_recover_post",
+        "path": "/v2/accounts/password-recover",
+        "responses": [
+            "202",
+            "400",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": true,
+        "fingerprint": "86352fae93ad2081770e4f61b92cc032b389408730a480348142f8c4f62b91cf",
+        "method": "GET",
+        "operation_id": "account_support_get",
+        "path": "/v2/accounts/support",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": true,
+        "fingerprint": "a5789e7fc302d1f7f6120537fc3f00f7671780f193e3552d4c986e8823582764",
+        "method": "POST",
+        "operation_id": "account_token_post",
+        "path": "/v2/accounts/token",
+        "responses": [
+            "200",
+            "400",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": true,
+        "fingerprint": "aeabee25f13a214f32e4727e2d85d868d241e617447a0dd31461c737c4800b25",
+        "method": "POST",
+        "operation_id": "account_token_refresh_post",
+        "path": "/v2/accounts/token-refresh",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8a9f20b9fd9764f41a446e268afcb283d218552506c2ca7a45e94269d2279972",
+        "method": "DELETE",
+        "operation_id": "account_unlink_device_delete",
+        "path": "/v2/accounts/{accountCode}/devices/{deviceCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5a1515158452fb6ea72640d14701dc18481dd923c753c9116f180c3af7d2f9d0",
+        "method": "POST",
+        "operation_id": "account_email_verify_patch",
+        "path": "/v2/accounts/{accountCode}/email-verify",
+        "responses": [
+            "202",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Account"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c9f53955a93a5b65d90d89aca18c9aad3f08cd0d6adc0cd9df4eb5eef1898c73",
+        "method": "GET",
+        "operation_id": "authentication_token_authentication_tokens_get",
+        "path": "/v2/authenticationtokens",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthenticationToken"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "af96bc996c2fed8990ba8c42f8fd85564132c83137b64939493f51e10d9b2ecb",
+        "method": "POST",
+        "operation_id": "authentication_token_create_post",
+        "path": "/v2/authenticationtokens",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthenticationToken"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "066153249b0ac84d9f69d8a7db36163f1493132fc4ab3e6397da33cbfd48ece1",
+        "method": "GET",
+        "operation_id": "authentication_token_authentication_token_list_get",
+        "path": "/v2/authenticationtokens/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthenticationToken"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8333b2937838e97f9f139bba8047dc07a07cd16a204c174e43e34e9ff138aed1",
+        "method": "DELETE",
+        "operation_id": "authentication_token_remove_delete",
+        "path": "/v2/authenticationtokens/{authenticationTokenCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthenticationToken"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b3309df94678124a688115e3d26469bb2331c62d3d60955305173f10ceeb90aa",
+        "method": "GET",
+        "operation_id": "authentication_token_authentication_token_get",
+        "path": "/v2/authenticationtokens/{authenticationTokenCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthenticationToken"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "2851199ddc653192a0cb1b6ec0e7d22a29df08ae1539da499e37d48a7dd399f5",
+        "method": "PATCH",
+        "operation_id": "authentication_token_update_patch",
+        "path": "/v2/authenticationtokens/{authenticationTokenCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthenticationToken"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "518bbad90873a5e73a911507630ee44697416001a4219054ebc1b819baa39d2f",
+        "method": "POST",
+        "operation_id": "authentication_token_undelete_post",
+        "path": "/v2/authenticationtokens/{authenticationTokenCode}/undelete",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthenticationToken"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5a04f71999f4c389a3ec45b28d3afe6a59e84e92960059ad15dd8882e491cf96",
+        "method": "GET",
+        "operation_id": "authorisation_group_authorisation_groups_get",
+        "path": "/v2/authorisationgroups",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthorisationGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "19813f6f9bb0b40b9c67687db292ca88d6954a293b78b8e29d753f0171f50f8a",
+        "method": "POST",
+        "operation_id": "authorisation_group_create_post",
+        "path": "/v2/authorisationgroups",
+        "responses": [
+            "201",
+            "400",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthorisationGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4171f7a724519132f8b4b46ac54404351472c67c5e84acceef4d49c1e731330c",
+        "method": "GET",
+        "operation_id": "authorisation_group_authorisation_groups_list_get",
+        "path": "/v2/authorisationgroups/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthorisationGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e5159b6dc1008c4df646e9d0a76206dc8982608633205181720eddfcffba4478",
+        "method": "DELETE",
+        "operation_id": "authorisation_group_remove_delete",
+        "path": "/v2/authorisationgroups/{groupCode}",
+        "responses": [
+            "204",
+            "404"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthorisationGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "95987e11cee1300b4054584b9dbe7a236f090b4a618cc4ab3182267ae4eecd64",
+        "method": "GET",
+        "operation_id": "authorisation_group_authorisation_group_get",
+        "path": "/v2/authorisationgroups/{groupCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthorisationGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "d224be266912b03d3f9459dfc89bf8d0a912f3b16c5f292bc08a9d86e637a5d3",
+        "method": "PATCH",
+        "operation_id": "authorisation_group_update_patch",
+        "path": "/v2/authorisationgroups/{groupCode}",
+        "responses": [
+            "200",
+            "400",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthorisationGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "a4f1419638d552315b4f86c7887c43ace347819e6ce057aa76564208ebdc7fda",
+        "method": "GET",
+        "operation_id": "authorisation_group_authorisation_group_info_get",
+        "path": "/v2/authorisationgroups/{groupCode}/info",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "AuthorisationGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e1f7ac1bdd1e3ae6ca1a176652497e8c4a37dccbe18e90bf5a729385ee7dc0a1",
+        "method": "POST",
+        "operation_id": "balance_deposit_create_post",
+        "path": "/v2/balance/deposit",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Balance"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "46a2ee6c35f9dbe0a06d7517bca7e75cf6280826d3cb2b56d46230dff89f4cd7",
+        "method": "POST",
+        "operation_id": "balance_withdraw_create_post",
+        "path": "/v2/balance/withdraw",
+        "responses": [
+            "204",
+            "400",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Balance"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "19891c8972ead8c683dfc0cb942764273e7ad3d13a6e89de2eeddfb63ad78a62",
+        "method": "GET",
+        "operation_id": "balance_year_get",
+        "path": "/v2/balance/year",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Balance"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "3f9c605ae97d75a86d4e56da0e3e66c7febd9b0bd3552e4936e525e3750c090d",
+        "method": "GET",
+        "operation_id": "balance_date_get",
+        "path": "/v2/balance/{date}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Balance"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "7c8b7824b0eb05b5dfd8a5db83dbf5da92e82b1b7aa50df941cfe69a42d06ff5",
+        "method": "GET",
+        "operation_id": "invoice_billing_line_types_get",
+        "path": "/v2/billinglinetypes",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Invoices"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1b1f9c71c1bec6a6e84ef89597d596e962546b6042c32c96f3e77eba4db9adda",
+        "method": "GET",
+        "operation_id": "tariff_unit_tariff_units_get",
+        "path": "/v2/billingunittypes",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "6663468aa7d60d60f3c109cdedc65297d1c985c23004ad40ba7b80292bb0900c",
+        "method": "GET",
+        "operation_id": "category_categories_get",
+        "path": "/v2/categories",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4ee19590094962be7601027097141c84eda5134b824cfcdec0a14532068025a7",
+        "method": "GET",
+        "operation_id": "merchant_clearing_accounts_get",
+        "path": "/v2/clearingaccounts/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ceec04fdcffdfb27b2ee4fb97ac6c16a5064395049a592d58dabd9678ce6c975",
+        "method": "GET",
+        "operation_id": "clearing_clearing_line_types_get",
+        "path": "/v2/clearinglinetypes",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "25ed4326de3c0feca6715e0f419b087855b7ed8a42a454272ecdb8cf462c8296",
+        "method": "GET",
+        "operation_id": "clearing_clearings_get",
+        "path": "/v2/clearings",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1ec3215ff3292c0680decfa6e2c53793bef8bf1e04feec7970a6587ab63c15a4",
+        "method": "GET",
+        "operation_id": "clearing_settlements_get",
+        "path": "/v2/clearings/settlements",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5fbb1f44d6547b69e4d7cb14397c945eab90526183886288377229007262267f",
+        "method": "GET",
+        "operation_id": "clearing_clearing_get",
+        "path": "/v2/clearings/{identifier}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "50b55d8e8c3e986f6d06aa2b71fcb89cda1807dfcf1493b134cb2389b4feafd7",
+        "method": "GET",
+        "operation_id": "clearing_download_get",
+        "path": "/v2/clearings/{identifier}/download",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "425",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "df90ae91a157808e3af5466fc6ffe287d52745bfcb1a66709676be4e8cda9c3b",
+        "method": "GET",
+        "operation_id": "clearing_info_get",
+        "path": "/v2/clearings/{identifier}/info",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "77df60b0a6822fae33a2195b63770173a8968a74208781435a431034a6b0e283",
+        "method": "GET",
+        "operation_id": "clearing_clearing_lines_get",
+        "path": "/v2/clearings/{identifier}/lines",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5b4c6554604884ab79f68cc1409cf11603049d82c8f994f954f1c0ee3b88ee26",
+        "method": "GET",
+        "operation_id": "clearing_clearing_records_get",
+        "path": "/v2/clearings/{identifier}/records",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5b5a9299c6f63eb3489e1e53f3886c5da835d1c9c45fb96adfca8eafd2d7123d",
+        "method": "GET",
+        "operation_id": "company_type_company_types_get",
+        "path": "/v2/companytypes",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "10b5949e69d1b67279d12ba66252461791503930d74266089f85a16599bb4746",
+        "method": "GET",
+        "operation_id": "contact_method_contact_methods_get",
+        "path": "/v2/contactmethods",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "ContactMethods"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "cc812d9dd64095a5bd27ce6861e7a4d4d8942e877b1f2602a1304e09e1628b7f",
+        "method": "POST",
+        "operation_id": "contact_method_create_post",
+        "path": "/v2/contactmethods",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "ContactMethods"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "cf1ebec76a7755722f66814ba412739e7adbb922f54432d1eae970050d0f47f1",
+        "method": "DELETE",
+        "operation_id": "contact_method_remove_delete",
+        "path": "/v2/contactmethods/{contactMethodCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "ContactMethods"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "18e1dce9f3f922244b73e7dac37a257b23a90cfa812e38fb5871a31ceef49f13",
+        "method": "GET",
+        "operation_id": "contact_method_contact_method_get",
+        "path": "/v2/contactmethods/{contactMethodCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "ContactMethods"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "19421e4372f395188841329eb7f714e94b195af693ccdab6c20a221b114c1cde",
+        "method": "PATCH",
+        "operation_id": "contact_method_update_patch",
+        "path": "/v2/contactmethods/{contactMethodCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "ContactMethods"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4d96aa5ea1fd4ebd81b33ee67c0a67540ef8231bf0de7f9abc3f9e4c1816ea01",
+        "method": "POST",
+        "operation_id": "contact_method_undelete_post",
+        "path": "/v2/contactmethods/{contactMethodCode}/undelete",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "ContactMethods"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8d9d8f3563b0515f4449e77da48bc222c52027a5c873c29128775553059a9c1b",
+        "method": "GET",
+        "operation_id": "country_countries_get",
+        "path": "/v2/countries",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "f8a084b63ed66f285a644b83bae1448937b42fc646221f8b9c231547dd04d66a",
+        "method": "GET",
+        "operation_id": "currency_currencies_get",
+        "path": "/v2/currencies",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "cac38c6527b826ae902af28f615edb3259df5b6b7b8f011dc4b4a3555871231d",
+        "method": "DELETE",
+        "operation_id": "icon_remove_delete",
+        "path": "/v2/icons/{code}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Icons"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c724dbd3a8cead0e262ca4e9ec11de73492065ad25ad6dd3180d47db3e877348",
+        "method": "GET",
+        "operation_id": "icon_icon_get",
+        "path": "/v2/icons/{code}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Icons"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5874caaae7436ac909eeeb850f12f06310b42c4a7a7d65c130318324c794d0f9",
+        "method": "POST",
+        "operation_id": "icon_update_patch",
+        "path": "/v2/icons/{code}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Icons"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "a78a740f4482e0d7728693b4e57ac046ece60f099763172f961b57b1cd9bdda7",
+        "method": "GET",
+        "operation_id": "idin_idins_get",
+        "path": "/v2/idin",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Idin"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "f9d293c3ec6f65fea81defd115b30dcb094ba3e16439fd70e7a0d67f337e078b",
+        "method": "GET",
+        "operation_id": "integration_integrations_get",
+        "path": "/v2/integrations",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "0e5b4329a7d6e0f0b5ba8fd0ca8ce6267e84bd09d23abfa622366f3ac9803332",
+        "method": "GET",
+        "operation_id": "invoice_invoices_get",
+        "path": "/v2/invoices",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Invoices"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c522429a6d677a76779eeb175d897b6d31fd85db6015d0ade1881e0b733352c1",
+        "method": "GET",
+        "operation_id": "invoice_download_get_operation_id",
+        "path": "/v2/invoices/{identifier}/download",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "425",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Invoices"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "d6ccfd8015f65481c8249793339402e245a417320ff97d03040c47292e3807be",
+        "method": "GET",
+        "operation_id": "invoice_invoice_get",
+        "path": "/v2/invoices/{invoiceId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Invoices"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "da6d3949987270b9fc83c3bcd9f91cab6e3b5888f317ce1050bbc6c8827c1887",
+        "method": "GET",
+        "operation_id": "invoice_invoice_info_get",
+        "path": "/v2/invoices/{invoiceId}/info",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Invoices"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "0fc5f472a90444dcd4b0061a95c53105e3eb398b5addae2e5812d987cd7c7a69",
+        "method": "GET",
+        "operation_id": "invoice_invoice_lines_get",
+        "path": "/v2/invoices/{invoiceId}/lines",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Invoices"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "a3d9da828e74b0c493d92a05178aff5b1417d4eb826ad44097e4530bad1b2fb0",
+        "method": "GET",
+        "operation_id": "ip_address_ip_addresses_get",
+        "path": "/v2/ipaddresses",
+        "responses": [
+            "200",
+            "400",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "IpAddresses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "0b950ab8436a0b596dc88ba4615a14e4569ada570fc57c245f2d90ebed9f7247",
+        "method": "GET",
+        "operation_id": "ip_address_is_pay_ip_get",
+        "path": "/v2/ispay/ip",
+        "responses": [
+            "200",
+            "400",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "IpAddresses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1d8cae95e5a671530babeca8f0145d78cda2b10c885d4579b4bf1e9b6fb3036a",
+        "method": "GET",
+        "operation_id": "issuer_issuers_get",
+        "path": "/v2/issuers",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "cd31ce7c3a7797e63a44dc20bc9bcbe3087fbec6c6db00d459ae3d47502acbeb",
+        "method": "GET",
+        "operation_id": "locale_languages_get",
+        "path": "/v2/languages",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b48cdad8f70c795092678785d48aa8f5738e07f442926915c3f32136863af82e",
+        "method": "GET",
+        "operation_id": "layout_layouts_get",
+        "path": "/v2/layouts",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "83e28640072191618445d63a77ef7734f171a82a5ee7e7d90b14f697cdca756b",
+        "method": "POST",
+        "operation_id": "layout_create_post",
+        "path": "/v2/layouts",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "3efba0389c661ecc16013f2a9ef4dd81509fa68894927773ee1168eb0aefea0c",
+        "method": "GET",
+        "operation_id": "layout_layouts_list_get",
+        "path": "/v2/layouts/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "761a2ac5b2f0368a581e3fe00250b0d05823b47fb6849a433951c406c02fe130",
+        "method": "DELETE",
+        "operation_id": "layout_remove_delete",
+        "path": "/v2/layouts/{layoutCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8e8249e33151d4f569bf4db99284b7294bcf5df09d71d5e2225feb71d5b4b2fc",
+        "method": "GET",
+        "operation_id": "layout_layout_get",
+        "path": "/v2/layouts/{layoutCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "6d423c14262ba9dd2d4ae172ec43cda2cc44525f9241c1986c4706c1253e47b0",
+        "method": "PATCH",
+        "operation_id": "layout_update_patch",
+        "path": "/v2/layouts/{layoutCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "423",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5d2318f65cdce9e7f721af126dce70fd66215312b003661293675f5b93441d49",
+        "method": "POST",
+        "operation_id": "layout_files_upload_post",
+        "path": "/v2/layouts/{layoutCode}/files",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "423",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4cbd48247f2d462c1549c7eb769d22b9b179fdd91e1b896cb6391cd3341c7795",
+        "method": "DELETE",
+        "operation_id": "layout_files_remove_delete",
+        "path": "/v2/layouts/{layoutCode}/files/{fileCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "cf909a193bccd8281b668627a05d06b072d2d638ae94983b668d51d3288a7ce8",
+        "method": "GET",
+        "operation_id": "layout_info_get",
+        "path": "/v2/layouts/{layoutCode}/info",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "f198ef5c7b16265ee73eedd4fc45b087ab2af35cf629fe5476be9d9b76746f4d",
+        "method": "POST",
+        "operation_id": "layout_undelete_post",
+        "path": "/v2/layouts/{layoutCode}/undelete",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Layout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "6eda83060ecedf0fca769ba54cded90f0cc74a0d2eb657d43cdf67264e23f691",
+        "method": "GET",
+        "operation_id": "locale_locales_get",
+        "path": "/v2/locales",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c9a39e022e3f57f8a68eeac9f51b4635c0512d67b29ab7b0583e317fce4cb02e",
+        "method": "GET",
+        "operation_id": "mcc_mccs_get",
+        "path": "/v2/mcc",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e55baf373c7dbbc059e094c8f1c6e6f9b51372e93cd43a920aceb1edf36002e0",
+        "method": "GET",
+        "operation_id": "merchant_address_merchant_addresses_get",
+        "path": "/v2/merchantaddresses",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "MerchantAddress"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ff2d17e38ca2ed2cfbc7e7c0c658760afb3e8981f5b5f4f66d1b1c409d62ebb9",
+        "method": "POST",
+        "operation_id": "merchant_address_post",
+        "path": "/v2/merchantaddresses",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "MerchantAddress"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "d1b226e70cdcdb46d4954973df6adaf4a9b0a1f29ea4fb06eddf057ed4e74978",
+        "method": "GET",
+        "operation_id": "merchant_address_merchant_address_list_get",
+        "path": "/v2/merchantaddresses/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "MerchantAddress"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1566641c811bde538ff061a1d75b8dbb46bfe45c1768a45cc6c3c8885796533f",
+        "method": "DELETE",
+        "operation_id": "merchant_address_delete",
+        "path": "/v2/merchantaddresses/{addressCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "MerchantAddress"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "a22be8111aeb719d5c82947d6ca4c4d8802c1b14b93ea5ec75ede0e168d12034",
+        "method": "GET",
+        "operation_id": "merchant_address_merchant_address_get",
+        "path": "/v2/merchantaddresses/{addressCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "MerchantAddress"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b030fe53f9fe2b84ef765bf5af85b02a470df147e1f2e4fb3ddd6c9dfdd68aee",
+        "method": "PATCH",
+        "operation_id": "merchant_address_update_patch",
+        "path": "/v2/merchantaddresses/{addressCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "MerchantAddress"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e308196a684e4dc1cadf096306c7a9f4f7dcbbde3f5c63c838ff6d6a41f052b5",
+        "method": "POST",
+        "operation_id": "merchant_address_undelete_post",
+        "path": "/v2/merchantaddresses/{addressCode}/undelete",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "MerchantAddress"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "87e45598e66e6418c7f50ddb10f7819e7183f7c1ea6e1152e415d9a22ebe3bfd",
+        "method": "GET",
+        "operation_id": "merchant_imitate_search_get",
+        "path": "/v2/merchants/imitate/search",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "f9bb82e83d983dd6f0bb9c55041813a6729b7d020274847d4ac8da8beff437df",
+        "method": "GET",
+        "operation_id": "merchant_merchants_list_get",
+        "path": "/v2/merchants/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "9805aa99c7f7265edd394eeb9fa318fa30fed7db0e1847f3ca51c7103e064f8b",
+        "method": "GET",
+        "operation_id": "merchant_merchant_get",
+        "path": "/v2/merchants/{merchantCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "05f98d2c2d29493b80fe388c4bcc05c226e8d594c13835e4989bb278a83382e3",
+        "method": "GET",
+        "operation_id": "merchant_info_get",
+        "path": "/v2/merchants/{merchantCode}/info",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e45509d4600caab29d7e419e5def3305c6090b046218529e7f2bc9595e87756d",
+        "method": "PATCH",
+        "operation_id": "setting_merchant_update_settings_patch",
+        "path": "/v2/merchants/{merchantCode}/settings",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": true,
+        "fingerprint": "2a6dfaed8aa22484ecd873e6c51aa8c0a429209fecc0ebafa7ade0851d2a5152",
+        "method": "PATCH",
+        "operation_id": "account_license_enable_patch",
+        "path": "/v2/merchants/{merchantCode}/switch",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "2f6bab2d15e4cfaaab8e569d658c66a04d21fd49f2e55c19c1246a6120b4bc15",
+        "method": "GET",
+        "operation_id": "merchant_whitelabel_get",
+        "path": "/v2/merchants/{merchantCode}/whitelabel",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "bef1d41f40d42284007db08e7c9d35361db9414b44233a9d9be1096ae5541a94",
+        "method": "GET",
+        "operation_id": "package_packages_get",
+        "path": "/v2/packages",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1b2e1d2a02567bc7636adbcf1e6e6d8fe47bc693c508782fcc8e540cb2974a4e",
+        "method": "GET",
+        "operation_id": "payment_method_group_payment_method_groups_get",
+        "path": "/v2/paymentmethodgroups",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1ec260dccf436b5c276bb0da3ed6c6ddf876046eb5a41f39775b086932c3e726",
+        "method": "GET",
+        "operation_id": "payment_method_payment_methods_get",
+        "path": "/v2/paymentmethods",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c88997b7753c204ac371fc64c6fc14046730701fcb10811b4fd3f4addd5f943d",
+        "method": "GET",
+        "operation_id": "payment_verification_method_payment_verification_methods_get",
+        "path": "/v2/paymentverificationmethods",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c820aa99733ea39db63cc553abcb0171a9455334036b11533f1aa9a2f878858c",
+        "method": "GET",
+        "operation_id": "api_operation_permissions_get",
+        "path": "/v2/permissions/{scope}/{subject}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Permissions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ea133e88445d0804335e6aed7bd90a130271054ed4bb69336cebf7fcc21ff5f8",
+        "method": "GET",
+        "operation_id": "product_type_product_types_get",
+        "path": "/v2/producttypes",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "815a380365f980eca77e41261e921d6199d48680c64d2c39f43aa4d7213d675f",
+        "method": "GET",
+        "operation_id": "service_services_get",
+        "path": "/v2/services",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "bcc501841c3f886eee86c068ae583e6513d1117c5af4b14c70d01493a70b2fb9",
+        "method": "POST",
+        "operation_id": "service_create_post",
+        "path": "/v2/services",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "3536313d14ee42982282eb9084c9641ed3bcbd0d4731ac76142f506be9bb5d1f",
+        "method": "GET",
+        "operation_id": "service_services_list_get",
+        "path": "/v2/services/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "6be40806c5fa1159431a991ddb36e2f916d27fcf3be476a35c7796e692e72bdb",
+        "method": "DELETE",
+        "operation_id": "service_remove_delete",
+        "path": "/v2/services/{serviceId}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "a09f9fbadf4ecb2824c281bc4d035d4a52c1565fcd0dd2de3e3eb3143cbb32c1",
+        "method": "GET",
+        "operation_id": "service_service_get",
+        "path": "/v2/services/{serviceId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "de2f4fdd61b8e8c163ecfc255dd2ffee973eced7399bcecedeb76d5b9584a587",
+        "method": "PATCH",
+        "operation_id": "service_update_patch",
+        "path": "/v2/services/{serviceId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1d7c0a31a41e6bc78f91333e82cc9db8128dc13652ef72d451540478641d1aa0",
+        "method": "GET",
+        "operation_id": "service_info_get",
+        "path": "/v2/services/{serviceId}/info",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "7f974b1cd733e5472785b07223a3ef781352e138982e5dd5b6000b73512e2f04",
+        "method": "GET",
+        "operation_id": "service_payment_methods_get",
+        "path": "/v2/services/{serviceId}/paymentmethods",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "50594f46143ec6c0598e4f5ba6381658bb25dbc03a8f92c9c44ed6231c53d152",
+        "method": "DELETE",
+        "operation_id": "service_payment_method_disable_delete",
+        "path": "/v2/services/{serviceId}/paymentmethods/{paymentMethodId}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "30f37929b98c2e0c84cb5bf1f2800aa40b93c55dd576b70fe5a4ca6e882c3587",
+        "method": "PATCH",
+        "operation_id": "service_payment_method_update_patch",
+        "path": "/v2/services/{serviceId}/paymentmethods/{paymentMethodId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "27df8bdb0da0be4cad2874daff6cc605d6e4ce4685022087ccb4775419293733",
+        "method": "POST",
+        "operation_id": "service_payment_method_enable_post",
+        "path": "/v2/services/{serviceId}/paymentmethods/{paymentMethodId}",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c8c868beaca54b81f9a69b2815ea72eb11a86f65592d6ac4bec011b691502e86",
+        "method": "PATCH",
+        "operation_id": "service_settings_update_patch",
+        "path": "/v2/services/{serviceId}/settings",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "36c7e3ccf6b0453c4deb1fc2d5cc443c8770e1be894bdcbe314252ab0470837b",
+        "method": "POST",
+        "operation_id": "service_url_create_post",
+        "path": "/v2/services/{serviceId}/urls",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ae7d84a52e79503100c2510c365f7a391d6baf6ee7baa48132f45526caa2e76b",
+        "method": "DELETE",
+        "operation_id": "service_url_remove_delete",
+        "path": "/v2/services/{serviceId}/urls/{urlId}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "46503b67c6ea8fd7768603a4b866cbf5993b650317d0ee6df11148ae1d038fdc",
+        "method": "GET",
+        "operation_id": "settlement_forecasts_get",
+        "path": "/v2/settlements/forecasts",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "aaad568d86a932a51b8f7cf6534349c4d6fff10c529be0d7743152dc10f67320",
+        "method": "GET",
+        "operation_id": "settlement_forecast_info_get",
+        "path": "/v2/settlements/forecasts/{settlementDate}/{paymentType}/{turnoverGroupCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Clearing"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5ee8f0daa8c9be1e05d3972f62afdd362730137070c5783a6b2dd725816a6016",
+        "method": "GET",
+        "operation_id": "statistic_management_get",
+        "path": "/v2/statistics/management",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Statistics"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "cb935ab5461c585431309165ddfbf885964052e9c035cabfff4fbef333d277b0",
+        "method": "GET",
+        "operation_id": "statistic_volume_get",
+        "path": "/v2/statistics/volume",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Statistics"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e62f494513dc653b152f8f3b5670559e47e69b95af67baa04d54bc7014cc0660",
+        "method": "GET",
+        "operation_id": "terminal_card_acquirer_terminal_card_acquirers_get",
+        "path": "/v2/terminalcardacquirers",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5d0b78763dab77367934cffe0bbc66143ed002263826b51c11b478850d32dd3f",
+        "method": "GET",
+        "operation_id": "terminal_card_brand_terminal_card_brands_get",
+        "path": "/v2/terminalcardbrands",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b3c26503d806f027f7d21d919b7b5605a5cca01222a235f3f91f8240a23cd398",
+        "method": "GET",
+        "operation_id": "terminal_product_terminal_products_get",
+        "path": "/v2/terminalproducts",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "510f852fe78d6b33e4d67afe107ce948ef7f04fb7db89be8dea793030e1c1c33",
+        "method": "GET",
+        "operation_id": "terminal_assignment_terminal_assignments_get",
+        "path": "/v2/terminals",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Terminal"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "3fb4dca7b5ad02819751e7b52a1b5c7450b1ced75c735cdd3a352a08510eb360",
+        "method": "GET",
+        "operation_id": "terminal_assignment_terminal_assignments_list_get",
+        "path": "/v2/terminals/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Terminal"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "cde5c28af0d354ad4f4e64a2ede931ab13d6a09e21976be744653c1694f941b2",
+        "method": "GET",
+        "operation_id": "terminal_assignment_terminal_assignment_get",
+        "path": "/v2/terminals/{terminalCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Terminal"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "d391decaaf488bcae8c301bbe555be4c429adcf3ce8b4fd0c706aacd6c48ebca",
+        "method": "PATCH",
+        "operation_id": "terminal_assignment_terminal_assignment_update_patch",
+        "path": "/v2/terminals/{terminalCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Terminal"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "70d759bdb7e9d3d27878558e774437628f209eb7f4eaeccba89b442766061400",
+        "method": "GET",
+        "operation_id": "terminal_type_terminal_types_get",
+        "path": "/v2/terminaltypes",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ee2b9654ef8b6d7f2deaa5ad62447dd363cddb2b135b6b3f4cc3db70e61f8d1d",
+        "method": "GET",
+        "operation_id": "trademark_trademarks_get",
+        "path": "/v2/trademarks",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Trademarks"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8b872aee8bb5034c3a2a8c36be800d012cefc42c1926bcff2ad6f9579521f854",
+        "method": "POST",
+        "operation_id": "trademark_create_post",
+        "path": "/v2/trademarks",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Trademarks"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "9400082ec9fcaf4a94201201582b4214f3684a6f0789f8a590472230e3b2202e",
+        "method": "GET",
+        "operation_id": "trademark_trademarks_list_get",
+        "path": "/v2/trademarks/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Trademarks"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "a45cf30d615c747b2d1c54d75aa062b52f5596b8de122fe09e0ac1663ed0fb2b",
+        "method": "DELETE",
+        "operation_id": "trademark_remove_delete",
+        "path": "/v2/trademarks/{trademarkCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Trademarks"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "f1bc9cba4bc87359cbd715888b323e75c514fb7bef6bb991c140fdc2d449599b",
+        "method": "GET",
+        "operation_id": "trademark_trademark_get",
+        "path": "/v2/trademarks/{trademarkCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Trademarks"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "441063bc66f582ab25d02b5fa747bb10c55309e3253b769590b16623cc3a10e4",
+        "method": "POST",
+        "operation_id": "trademark_undelete_post",
+        "path": "/v2/trademarks/{trademarkCode}/undelete",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Trademarks"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c646477ceb0ccec662993f1a6ce9a045d1b75995c23b33c120bdf281dda2cc60",
+        "method": "GET",
+        "operation_id": "turnover_group_turnover_groups_get",
+        "path": "/v2/turnovergroups",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "TurnoverGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "0c177f810922094c49b345d353edd4ab720472eb1daaaf621ad96609b6fa2fb7",
+        "method": "POST",
+        "operation_id": "turnover_group_turnover_group_create_post",
+        "path": "/v2/turnovergroups",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "TurnoverGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "bd2a466f09ef3b58cd52bf5c189a82cc6dc0801eded85457f06b51241eb2a75b",
+        "method": "GET",
+        "operation_id": "turnover_group_turnover_group_list_get",
+        "path": "/v2/turnovergroups/list",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "TurnoverGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "83b64a5d0bdca7f01367908f46b1ef9b559577d86612a4d6a1efe1c35a1973a9",
+        "method": "DELETE",
+        "operation_id": "turnover_group_turnover_group_delete_delete",
+        "path": "/v2/turnovergroups/{turnoverGroupCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "TurnoverGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c8f9356f019959befeb557e4e57bc28ad96539651e48c53405eb71730eb049e6",
+        "method": "GET",
+        "operation_id": "turnover_group_turnover_group_get",
+        "path": "/v2/turnovergroups/{turnoverGroupCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "TurnoverGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "12229f49f656cd5720e6ab255f92efb9ebe29d8dbf78c7426c62a0747074cde9",
+        "method": "PATCH",
+        "operation_id": "turnover_group_turnover_group_update_patch",
+        "path": "/v2/turnovergroups/{turnoverGroupCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "TurnoverGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "798286d586097b59b64a39e1e88a8ba0bd24babed9b6ce8e636fb171bd9c9b2c",
+        "method": "POST",
+        "operation_id": "turnover_group_turnover_group_undelete_post",
+        "path": "/v2/turnovergroups/{turnoverGroupCode}/undelete",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "TurnoverGroup"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e5f0a5475f9b1d5d404213ca1f97a4bd9eb8f44da545c792fe0f9a554a54bdc2",
+        "method": "GET",
+        "operation_id": "verify_rule_verify_rules_get",
+        "path": "/v2/verifyrules",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "VerifyRule"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "6b06ca2c0c7fb9018318075e9063de7234ccd03bdc5f5867a7e357f4371cc5f7",
+        "method": "POST",
+        "operation_id": "verify_rule_create_post",
+        "path": "/v2/verifyrules",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "VerifyRule"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "19baf5feb47561f52544897b5eb9c73ed295f1d0b8ff80b8e56551707fa1c4ee",
+        "method": "DELETE",
+        "operation_id": "verify_rule_remove_delete",
+        "path": "/v2/verifyrules/{verifyRuleCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "VerifyRule"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "42775d7cff97af242901a087e8732dbaaa4e59a3f96f8643685eb58826f11e46",
+        "method": "GET",
+        "operation_id": "verify_rule_verify_rule_get",
+        "path": "/v2/verifyrules/{verifyRuleCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "VerifyRule"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c722a17c08237edad8f3c0aef9b99655e2b2ab377034f48e39f9ab8bc352be44",
+        "method": "PATCH",
+        "operation_id": "verify_rule_update_patch",
+        "path": "/v2/verifyrules/{verifyRuleCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "422",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "VerifyRule"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "433114348f140b893d1f510b97075c602786b11f246fc2ac4f4ff824b436412b",
+        "method": "GET",
+        "operation_id": "verify_rule_type_verify_rule_types_get",
+        "path": "/v2/verifyruletypes",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "410",
+            "415",
+            "429",
+            "500",
+            "503"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-gmsapi.json",
+        "tags": [
+            "Core Data"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "2043cc8443e9ecb5f93c23c8b198c773585924103b38a9f130a29fe2a0e248d4",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/balance",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Balance"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "6cf6a23c7ab55185d2401ee828ed9f89b067f2c7844bffaacca2dfaa33694d61",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/boarding/{merchantCode}/ready",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "22721dac7795056a8657cb356764df6ebe99c4d2a8fa39560592828b44db4ef1",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/clearingaccounts",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "ClearingAccounts"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4763af138e66e932a907cb5cf0d08d3ac8cfa27e87d09138203c863a909b4457",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/clearingaccounts",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "ClearingAccounts"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "9e4ebc028d1cd032acf1c515a147e01587e0545a035ce109c6bb8700678faaa3",
+        "method": "DELETE",
+        "operation_id": null,
+        "path": "/clearingaccounts/{clearingAccountCode}",
+        "responses": [
+            "204",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "ClearingAccounts"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "334239b1f4bf5b6f411bacd148c8f20450118f5d982829cd363d53d11805cfaf",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/clearingaccounts/{clearingAccountCode}",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "ClearingAccounts"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "6716dad5e3117b18f4da8084b41f96a57aa551a25bb13ab6c205ea22d5ea5068",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/clearingaccounts/{clearingAccountCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "ClearingAccounts"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "abb5e940417a189fc55b8fd44f154925bb3117bfdbf970dc3af74cf07949a362",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/clearingaccounts/{clearingAccountCode}/undelete",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "ClearingAccounts"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "0e3b610f6f35f0045484e895c418fc138ba697a8eba4e54f8fa50bc07bcde01a",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/clearinglines",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "76c6e11ae977a5e8725f31556696869b8631f4dca93d92bcb70f254dd40061b6",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/directdebits",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Directdebits"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4aa8a4de094c890313182a02df5b03a2292af09331f0a69784a32a3e57371c99",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/directdebits",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Directdebits"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ec1a2332b54164cc2e71677cb0ee3011aed75d14b6f19b2d996df2b2192c25f1",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/directdebits/mandates",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Directdebits"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e849e7cde732b9c43063443935913ac7ce6c21d864b6107fc8c14daeb8cc3115",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/directdebits/mandates",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Directdebits"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "d748fbbac3b0e7f08ce4606bb7f57f47999c3224370452545c5f7c487c2c983b",
+        "method": "DELETE",
+        "operation_id": null,
+        "path": "/directdebits/mandates/{MandateId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Directdebits"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "3224cbae68b637214ac64b3dfa5d479b5e05b5ba2bc09f88c348d3b7a7830e73",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/directdebits/mandates/{MandateId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Directdebits"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "942fe8ad1fb99705400336ebfa1e6960f2ab2c4b9fe29cfaf42f74a5ba3761ff",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/directdebits/{directDebitId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Directdebits"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "a4ec252684a5c094ac151c179621930442f9e665f9e20a77575f5d0456f84eef",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/documents",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "aba9863cefe74e3a7551e426bb3d479e839593595077a3edb8865c06a7ac73e7",
+        "method": "GET",
+        "operation_id": "browseExchanges",
+        "path": "/exchanges",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "bearerAuth": []
+            },
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Exchanges"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5c3e61cd1ee617403544da05549a171fa01d5bfdf24fa383c8ae3392ee5b18cf",
+        "method": "GET",
+        "operation_id": "getExchangeInfo",
+        "path": "/exchanges/info/{code}",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "bearerAuth": []
+            },
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Exchanges"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "9d21ee7e10b6ded67e44f88ac8d40f792a0e08883702dccb62541513f806a7cd",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/exchanges/summary",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Exchanges"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b692409e51f7b69e9e5211f18382cc99c16b05d08e17bc97312e3c4905d07453",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/exchanges/{objectCode}/retry",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Exchanges"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "2ddb51482b5201c931a1c2d5e0f57c119a7585ea188303dd99f2e922baee9ce5",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/invoicelines",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "dd7df3212f62c9aa8bbca9a914435205f03d631c4a6c3ea913a6a6b35b953b75",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/licenses",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Licenses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "7619bd64e9118d2b7ee0ce50d7537892541902bea913714709933f463ef400d0",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/licenses",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Licenses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1f9d38e582b0ae9986d479d49a661813396b93c3c5ef8261829f2049a2d544d8",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/licenses/list",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Licenses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "cae30ddc9da49191cb612f2357351c0fa1da47fdf8caa48b33aa0c3ed877234f",
+        "method": "DELETE",
+        "operation_id": null,
+        "path": "/licenses/{licenseCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "409",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Licenses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "d5a6302df56ba77b35669bd9ab666af4b9587eb51f9be7d34721b9d13d82bd40",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/licenses/{licenseCode}",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Licenses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b94702e38200ee737781d83a6b64f1999869d5bdd065341a36bafc56547b6a2b",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/licenses/{licenseCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Licenses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "7c89413ed607e7539b95898f61adfba671824feb6732c3e410a819c3f5804332",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/licenses/{licenseCode}/undelete",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Licenses"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8d4ac7d9d0ad926498928ebc33ead073cc5da0ea7d51cdcf09ad1770c7c1c846",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/login/authenticate",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Authentication"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "905a320ecfd70e042aebab78ed78d89775bc04dfe98d8a580f8fc512b7013272",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/merchants",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c30215474b6622d507345108762d4d2cea4520969a1ab53805f23587acbe6e33",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/merchants",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8ccd26c0efcb9a2784143adeb5a3cdf2f19f4ff754457495958e29ffe77cd5aa",
+        "method": "DELETE",
+        "operation_id": null,
+        "path": "/merchants/{merchantCode}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "f126436fe3a31fbdabbb1d04a24a463979f1a1bdf50b5028ad30b09cdd0ffed4",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/merchants/{merchantCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "0005d5cf8934c9fb1b4596d49d7669e8d1e61e05db6b7bd3e1501e3ee265ffa8",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/merchants/{merchantCode}/package",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "97ed4d746c16a76ab9fcf6afc16c3883d72e9f995e74c7d407deb8fe5943e606",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/merchants/{merchantCode}/undelete",
+        "responses": [
+            "201",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Merchants"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "98df032765dfca6091db9786c2be269052ff5764a8880eedbc4ff1ab77427937",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/payout",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Payout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "eb32ccb503c3f33b5fe21b9e1b6a18a5cea154b82be36f693589ddd1d9048c9f",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/payout/clearing",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Payout"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "30c43d2baa76ca101a917356fdb59f1cf70ec005f194c3b98d043fae6a24472b",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/refunds",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Refunds"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "314df1884cf284ebd5e58eb9f7817363da4c89769cc4ea0635351dc6677f42eb",
+        "method": "DELETE",
+        "operation_id": null,
+        "path": "/refunds/{code}",
+        "responses": [
+            "204",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Refunds"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "b00169b80092aaf9caa18b6f727d887e9964bb22fe78708638c052d8625f4d21",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/refunds/{refundId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Refunds"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "d60d898c920d6f618ea73168bc92c1af089f11d52106a8e29d8d0e1ea706b257",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/services/config",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "64bc50f9e037d02b783ddc08c8c79ec3e59f8ec86055afabf3d71947c6437918",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/services/{serviceId}/paymentlink",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "783404f0e9750a9b3f136335b1dc96aeaf7de70aed65191fabd8eab1662a9a2f",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/statistics/directdebit",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Statistics"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8cdbfef71d27ae03fe7876a505b55d2b93e0e200f452055791fbd8e948a5a4c1",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/terminals",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Terminals"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "767323a2b72532289b37a6d2c98a3016f91f01dc6bf8f60a81c76e13673b69de",
+        "method": "DELETE",
+        "operation_id": null,
+        "path": "/terminals/{terminalCode}",
+        "responses": [
+            "204",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Terminals"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4f9c065a1ac19d06aa23272c3d9bf685c9bf85151798dfbb8e1b5b6b24f5507e",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/terminals/{terminalCode}/undelete",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Terminals"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ba7abe4d70a79424b85cffb755660144d5cf6f4180b10036c3d5d58ada06376b",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/tokenization/tokens",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Tokens"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "57d4c5a6a81a68977368a865bd5aecb449bcf14ded6cc7b3fc7a4482ea812bac",
+        "method": "DELETE",
+        "operation_id": null,
+        "path": "/tokenization/tokens/{code}",
+        "responses": [
+            "204",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "409",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Tokens"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "3287bedcfcc372811b9a44c4b2da1fc27b252968ccff73869da266a8303e701e",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/tokenization/tokens/{tokenCode}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Tokens"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "be4bfd612dc513f381bf7cb8df3bfe2401ff82022c5c3cd73fc9074c79cf48df",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/tokenization/{tokenCode}/info",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Tokens"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "44ec3d222a3149ac6fad587bde963becd65898f8d73a81454616fd480efa933c",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/tokenization/{tokenCode}/transactions",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Tokens"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "ff471ea9121ba1d77a31e9a21d6bacf8d80575550f37efbd665d50ed9217dea9",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/transactions/instore",
+        "responses": [
+            "200",
+            "401",
+            "403",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "64392e09161197c93997b0bf070ecd8efc89624e5ff6601b381b7bf860d80e4a",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/transactions/load",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8cfd38c36aa22f91b704790d67e410e36e56b1580a256c565d5cd9cbee962fe2",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/transactions/{transactionId}/approve",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "8be844259a6f3af4c5d3e39c1eb4692ea47a171270a73e66f256e0b4547f34f0",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/transactions/{transactionId}/cancel",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "be35556515c84dfa247ffa5f3e609de10aa821da5b69c0315754c7b316e73abc",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/transactions/{transactionId}/capture",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "766f203dcc3ae6aaf071d0dd9c81c5dcedf5f2ed46770e3e16a866f3c62bc9a0",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/transactions/{transactionId}/decline",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "efe98dae111814ffdd183bcdab2ac913ef00a6193f3e772babe1121ef7aa12fd",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/transactions/{transactionId}/load",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "e4ebdcb06bebf6f08239cb062e225507680207cc8e73e2ba4b094a791e22006a",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/transactions/{transactionId}/refund",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            },
+            {
+                "bearerAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "527a29287dd2383f5b919567b94c6019a4d221adf6638e5ce47227d351585cc2",
+        "method": "PATCH",
+        "operation_id": null,
+        "path": "/transactions/{transactionId}/void",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "c0d5d66e635b107fab2a2114665508dbaf2e1bc8d1ebaa53a849fc0998d3b012",
+        "method": "POST",
+        "operation_id": null,
+        "path": "/vouchers/transaction",
+        "responses": [
+            "201",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "415",
+            "422",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-rest.json",
+        "tags": [
+            "Vouchers"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "bab3b50a88f3374179f57b415f7253c90527b058f6bffcc07815a0dad1a77844",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/transactions",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-trx.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4b2419a773b56ca440d7f247180f8ecf8122c8b848ee30961c3731452e75a9d2",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/transactions/find",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-trx.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "058ed991ce411fec3dc305ee8e32a6cf87841a454f5db0e1b16fd3fec9c5372f",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/transactions/{transactionId}",
+        "responses": [
+            "200",
+            "400",
+            "401",
+            "403",
+            "404",
+            "405",
+            "406",
+            "429",
+            "500"
+        ],
+        "security": [
+            {
+                "basicAuth": []
+            }
+        ],
+        "source": "pay-idefix-trx.json",
+        "tags": [
+            "Transactions"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "25d1f64102690cee400d976a040e2194bd8f47af90aa58793f4b98e94cbaa0f8",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/api/cancel",
+        "responses": [
+            "200"
+        ],
+        "security": null,
+        "source": "pay-terminal-payments.json",
+        "tags": [
+            "Instore payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "7357780fc327e2ba63d4066cba6efad373d56fa5b62cc83ab9e532d27df697c8",
+        "method": "GET",
+        "operation_id": null,
+        "path": "/api/status",
+        "responses": [
+            "200"
+        ],
+        "security": null,
+        "source": "pay-terminal-payments.json",
+        "tags": [
+            "Instore payments"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4667159ba710e46b43e8051e2d419903db2add44624d8a22f243c0d98e382e29",
+        "method": "POST",
+        "operation_id": "api_create_order",
+        "path": "/v1/orders",
+        "responses": [
+            "201",
+            "400",
+            "403",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "5eb361709a460b95bbe114f2e5d60d8739c2fd6242dd61819737cba4279c094e",
+        "method": "PATCH",
+        "operation_id": "api_update_order",
+        "path": "/v1/orders/{id}",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "3140fac54285447c9d6d16940cd925058f67ae28df1dba42f1e707edd393a00b",
+        "method": "PATCH",
+        "operation_id": "api_abort_order",
+        "path": "/v1/orders/{id}/abort",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "817b4d3572d2063135078ec0ecbd04a37e87698525b82287921241bfcb185ae9",
+        "method": "PATCH",
+        "operation_id": "api_accept_order",
+        "path": "/v1/orders/{id}/accept",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "fff8913a99e5a9649c8698e3b814c0fae20d11451f4999cdc2a4e8964ea80284",
+        "method": "PATCH",
+        "operation_id": "api_approve_order",
+        "path": "/v1/orders/{id}/approve",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "6dcba9001d00af7c5862bd7e38299d29e3b8f211412d94a53483bb63354ee074",
+        "method": "PATCH",
+        "operation_id": "api_capture_order",
+        "path": "/v1/orders/{id}/capture",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "fb9d6df78da484a6eb248194ec382b014de0e2ab4c69dbef4ecdb7e90d16d13b",
+        "method": "PATCH",
+        "operation_id": "api_capture_amount",
+        "path": "/v1/orders/{id}/capture/amount",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "438b4a0890528bfed06b7a50ad73c433421557e5ea4e00888b8ad9f910dfae8b",
+        "method": "PATCH",
+        "operation_id": "api_capture_products",
+        "path": "/v1/orders/{id}/capture/products",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "bd1f73ba06c0ac2e8d0316336d54615c3fabc7072187c6c9ccc1d83716c83382",
+        "method": "PATCH",
+        "operation_id": "api_decline_order",
+        "path": "/v1/orders/{id}/decline",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "9542c33f1fe46325e8b382b6c98be185c941fbf7999d7af46a8d7bb6ac64deb1",
+        "method": "POST",
+        "operation_id": "api_create_order_payment",
+        "path": "/v1/orders/{id}/payments",
+        "responses": [
+            "200",
+            "201",
+            "400",
+            "403",
+            "422"
+        ],
+        "security": [],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "86ce50e834cd9f49c67308f3344974a62ae2db19cf10720aa33e8a1f3d211b74",
+        "method": "PATCH",
+        "operation_id": "api_retry_order",
+        "path": "/v1/orders/{id}/retry",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "88072a11fd1b0b4af781bd698a08e555163742465475450238d099a20a1738a2",
+        "method": "GET",
+        "operation_id": "api_get_status",
+        "path": "/v1/orders/{id}/status",
+        "responses": [
+            "200",
+            "403",
+            "404"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1e08413a6281b3b5383f6885a04e4c0dfb5808ba349d3ed5167a0801f84a19f9",
+        "method": "PATCH",
+        "operation_id": "api_void_order",
+        "path": "/v1/orders/{id}/void",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "404",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Order"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "d636f9dd1620234742b20de74fe8200f1bf7d0cef755cca812cecb93b779a1aa",
+        "method": "POST",
+        "operation_id": "api_post_pay_per_call_check_pin",
+        "path": "/v1/pay-per-call/check-pin",
+        "responses": [
+            "201",
+            "400",
+            "403",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "PayPerCall"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "4d060ede52a1ac2736d18531660ab35b5974bfb5c03cea2862e395c64377e0d8",
+        "method": "POST",
+        "operation_id": "api_post_vouchers_info",
+        "path": "/v1/vouchers/info",
+        "responses": [
+            "200",
+            "400",
+            "403",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Voucher"
+        ]
+    },
+    {
+        "deprecated": false,
+        "fingerprint": "1dec7b0e37961638bb4e38f14372416864c387ddfd8aa2050e65a077ceb96d1e",
+        "method": "POST",
+        "operation_id": "api_post_vouchers_payment",
+        "path": "/v1/vouchers/payment",
+        "responses": [
+            "201",
+            "400",
+            "403",
+            "422"
+        ],
+        "security": [
+            {
+                "BasicAuth": []
+            },
+            {
+                "BearerAuth": []
+            }
+        ],
+        "source": "pay-tgu.json",
+        "tags": [
+            "Voucher"
+        ]
+    }
+]

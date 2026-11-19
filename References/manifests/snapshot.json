@@ -1,0 +1,95 @@
+{
+    "captured_at": "2026-11-05T12:17:38.556992+00:00",
+    "provider": "paynl",
+    "sources": [
+        {
+            "bytes": 70233,
+            "path": "upstream/openapi/pay-card-payments.json",
+            "required": true,
+            "sha256": "07c50a8d28b172d46e4a6c2463ad6d3a969c230549fba285475099abf73fa5dc",
+            "status": "ok",
+            "url": "https://developer.pay.nl/openapi/pay-card-payments.json"
+        },
+        {
+            "bytes": 4339,
+            "path": "upstream/openapi/pay-clearing-and-invoicing-apis.json",
+            "required": true,
+            "sha256": "9770ab1177cedd197ebc3c424ea70063de4ad11c44207326fc3aed1717e76334",
+            "status": "ok",
+            "url": "https://developer.pay.nl/openapi/pay-clearing-and-invoicing-apis.json"
+        },
+        {
+            "bytes": 863045,
+            "path": "upstream/openapi/pay-gmsapi.json",
+            "required": true,
+            "sha256": "0c40fd2ee55b3b4c79e79896c45ccf7a020d99dff0998b3398241170f16eccc0",
+            "status": "ok",
+            "url": "https://developer.pay.nl/openapi/pay-gmsapi.json"
+        },
+        {
+            "bytes": 424939,
+            "path": "upstream/openapi/pay-idefix-rest.json",
+            "required": true,
+            "sha256": "2adc2831fdd98b2f324a2afaedd39ff07c7a3bcb42cb4b44f878b180ced4c8d0",
+            "status": "ok",
+            "url": "https://developer.pay.nl/openapi/pay-idefix-rest.json"
+        },
+        {
+            "bytes": 42747,
+            "path": "upstream/openapi/pay-idefix-trx.json",
+            "required": true,
+            "sha256": "f5d80111bc2d35d94a429db89debe35b86ed502295d0f54dcceef3fa87bd2644",
+            "status": "ok",
+            "url": "https://developer.pay.nl/openapi/pay-idefix-trx.json"
+        },
+        {
+            "bytes": 5611,
+            "path": "upstream/openapi/pay-terminal-payments.json",
+            "required": true,
+            "sha256": "750fd95ea4b31cd20eb24fd3e92122065f40939cb07d98b98b3e68ce6f5b1be1",
+            "status": "ok",
+            "url": "https://developer.pay.nl/openapi/pay-terminal-payments.json"
+        },
+        {
+            "bytes": 118231,
+            "path": "upstream/openapi/pay-tgu.json",
+            "required": true,
+            "sha256": "a65c352f5a9c01814e5a1d142a9903535ce722fd571321766c2c54e0342cb933",
+            "status": "ok",
+            "url": "https://developer.pay.nl/openapi/pay-tgu.json"
+        },
+        {
+            "bytes": 393662,
+            "path": "upstream/portal/api-defenition.html",
+            "required": false,
+            "sha256": "fab7ea44d6acbd1d9dbb38421e679bd1209b907c422a394507ceb39be6b893f2",
+            "status": "ok",
+            "url": "https://developer.pay.nl/v4.0/docs/api-defenition"
+        },
+        {
+            "bytes": 366325,
+            "path": "upstream/portal/platform.html",
+            "required": false,
+            "sha256": "ec194f2be59fc02b72f846d7549e31ea2c84c640d86f4e6141ee12509ff87a27",
+            "status": "ok",
+            "url": "https://developer.pay.nl/v4.0/docs/platform"
+        },
+        {
+            "bytes": 382570,
+            "path": "upstream/portal/how-to-use.html",
+            "required": false,
+            "sha256": "6fad7fb1969756e97de5a836327c2410104f52a93e69e62889b449ea871dc58d",
+            "status": "ok",
+            "url": "https://developer.pay.nl/v4.0/docs/how-to-use"
+        },
+        {
+            "bytes": 359223,
+            "path": "upstream/portal/integration-guides.html",
+            "required": false,
+            "sha256": "4fae2e316749837a3ec8f552e65dcc0de51909b4dce757b5f68b647aa8fedbec",
+            "status": "ok",
+            "url": "https://developer.pay.nl/v4.0/docs/integration-guides"
+        }
+    ],
+    "status": "complete"
+}
