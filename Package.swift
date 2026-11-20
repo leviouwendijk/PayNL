@@ -9,13 +9,10 @@ let package = Package(
     ],
     products: [
         .library(name: "PayNL", targets: ["PayNL"]),
-        .executable(name: "t_paynl", targets: ["PayNLTests"]),
-        .executable(name: "t_paynl_live", targets: ["PayNLLive"]),
     ],
     dependencies: [
         .package(url: "https://github.com/leviouwendijk/Primitives.git", branch: "master"),
         .package(url: "https://github.com/leviouwendijk/HTTP.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Milieu.git", branch: "master"),
         .package(url: "https://github.com/leviouwendijk/Sensitivity.git", branch: "master"),
     ],
     targets: [
@@ -27,16 +24,6 @@ let package = Package(
                 .product(name: "Sensitivity", package: "Sensitivity"),
             ],
             path: "Sources/PayNL"
-        ),
-        .executableTarget(
-            name: "PayNLTests",
-            dependencies: ["PayNL"],
-            path: "Testing/PayNLTests"
-        ),
-        .executableTarget(
-            name: "PayNLLive",
-            dependencies: ["PayNL", .product(name: "Milieu", package: "Milieu")],
-            path: "Testing/PayNLLive"
         ),
     ],
     swiftLanguageModes: [.v6]

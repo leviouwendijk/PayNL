@@ -15,3 +15,5 @@ compiled.pkl
 **/compiled.pkl
 
 **/__pycache__/
+**/.testflows/*
+!**/.testflows/snapshots/
