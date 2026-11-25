@@ -11,9 +11,9 @@ let package = Package(
         .library(name: "PayNL", targets: ["PayNL"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/leviouwendijk/Primitives.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Primitives.git", branch: "master"),
         .package(url: "https://github.com/swift-webc/HTTP.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Sensitivity.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Sensitivity.git", branch: "master"),
     ],
     targets: [
         .target(
